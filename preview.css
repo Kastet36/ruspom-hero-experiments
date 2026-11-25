@@ -1,0 +1,12 @@
+/* The first screen uses an unchanged copy of the current landing CSS. */
+.experiment{position:relative;z-index:10;border-top:1px solid #ffffff26;padding:20px clamp(20px,4.4vw,80px);background:#0a0c0b;color:#f1ebdf}
+.experiment-heading,.experiment-meta{display:flex;align-items:center;justify-content:space-between;gap:16px;max-width:1580px;margin:0 auto}
+.experiment-heading{font-size:14px;margin-bottom:14px}.experiment-heading>span{font-weight:700}.experiment-heading a,.experiment-meta a{color:#c7cdc6;text-decoration:underline;text-underline-offset:4px}
+.experiment-options{display:flex;gap:12px;max-width:1580px;margin:0 auto}.experiment-options button{border:1px solid #ffffff40;border-radius:7px;color:#f1ebdf;background:transparent;font:inherit;font-size:14px;line-height:1.4;padding:12px 18px;min-height:44px;text-align:left}
+.experiment-options button[aria-pressed="true"]{background:#e7b766;color:#18251b;border-color:#e7b766}.experiment-options button:hover{border-color:#e7b766}.experiment-options button:disabled{cursor:wait;opacity:.65}
+.experiment-meta{font-size:13px;line-height:1.6;margin-top:12px}.experiment-meta p{margin:0;color:#c7cdc6}
+/* Reserve room for the comparison controls below the unchanged hero layout. */
+.hero{min-height:calc(100svh - 174px)}.a__inner{min-height:calc(100svh - 268px)}
+.a__photo{background-position:65% 52%}
+@media(min-width:1000px) and (min-height:850px){.experiment{position:fixed;bottom:0;left:0;right:0}.hero{min-height:calc(100svh - 174px)}.a__inner{min-height:calc(100svh - 268px)}}
+@media(max-width:780px){.hero{min-height:0}.a__inner{min-height:calc(100svh - 76px)}.a__photo{background-position:74% 45%}.experiment-options{flex-direction:column;gap:8px}.experiment-options button{width:100%}.experiment{padding:20px}.experiment-heading,.experiment-meta{align-items:flex-start}.experiment-meta{flex-wrap:wrap}}

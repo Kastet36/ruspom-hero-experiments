@@ -1,0 +1,13 @@
+{
+  "desktop": "1440x1000",
+  "mobile": "390x844",
+  "variants": [
+    "panorama",
+    "terrace",
+    "long-terrace"
+  ],
+  "switching": "passed",
+  "horizontalOverflow": "none",
+  "javascriptErrors": [],
+  "mainLandingModified": false
+}
