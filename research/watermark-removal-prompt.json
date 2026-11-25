@@ -1,0 +1,5 @@
+{
+  "tool": "built-in imagegen",
+  "request": "Remove watermark from experimental images only",
+  "prompt": "Use case: precise-object-edit. Edit the supplied photograph only. Remove completely the semi-transparent company watermark overlay: both the house/tree logo and the Russian words «Русские Поместья» across the building. Reconstruct the underlying wood cladding, glazing, window frames, interior and reflections naturally in the marked region. Keep the exact same photograph, pixel dimensions, crop, architecture, number and arrangement of windows, roof shape, garden, sky, blue-hour lighting, colors, perspective and all other details. This is a narrowly localized watermark removal, not a new rendering. Do not add any text, logos, symbols, watermark, or new objects. Preserve all scene details outside the overlaid watermark."
+}

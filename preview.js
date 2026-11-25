@@ -1,8 +1,8 @@
 "use strict";
 const variants = {
- panorama:{title:"Панорамное остекление",src:"assets/panorama.png",position:"65% 52%",mobile:"74% 45%"},
- terrace:{title:"Открытая терраса",src:"assets/terrace.png",position:"65% 52%",mobile:"72% 45%"},
- "long-terrace":{title:"Терраса вдоль фасада",src:"assets/long-terrace.png",position:"65% 52%",mobile:"72% 45%"}
+ panorama:{title:"Панорамное остекление",src:"assets/panorama-clean.png",position:"65% 52%",mobile:"74% 45%"},
+ terrace:{title:"Открытая терраса",src:"assets/terrace-clean.png",position:"65% 52%",mobile:"72% 45%"},
+ "long-terrace":{title:"Терраса вдоль фасада",src:"assets/long-terrace-clean.png",position:"65% 52%",mobile:"72% 45%"}
 };
 const photo=document.querySelector(".a__photo"),status=document.querySelector("#experiment-status"),source=document.querySelector("#source-link"),buttons=[...document.querySelectorAll("[data-house]")];
 let selected="panorama", requestId=0;
