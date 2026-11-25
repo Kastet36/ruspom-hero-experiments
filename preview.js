@@ -1,6 +1,6 @@
 "use strict";
 const variants = {
- panorama:{title:"Панорамное остекление",src:"assets/panorama-clean.png",position:"65% 52%",mobile:"74% 45%"},
+ panorama:{title:"Панорамное остекление",src:"assets/panorama-interior-v2.png",position:"65% 52%",mobile:"74% 45%"},
  terrace:{title:"Открытая терраса",src:"assets/terrace-clean.png",position:"65% 52%",mobile:"72% 45%"},
  "long-terrace":{title:"Терраса вдоль фасада",src:"assets/long-terrace-clean.png",position:"65% 52%",mobile:"72% 45%"}
 };
